@@ -1,0 +1,37 @@
+div {
+  content: 'foo';
+}
+
+ul {
+  content: 'foo';
+
+  li {
+    content: 'foo';
+  }
+}
+
+input[type='email'] {
+  content: 'foo';
+}
+
+input.bar {
+  content: 'foo';
+}
+
+.bar {
+  div {
+    content: 'foo';
+  }
+
+  ul {
+    content: 'foo';
+
+    li {
+      content: 'foo';
+    }
+  }
+
+  input[type='email'] {
+    content: 'foo';
+  }
+}
